@@ -1,0 +1,1310 @@
+
+<head>
+<style type="text/css">
+.auto-style2 {
+	vertical-align: middle;
+	font-family: "Gotham Bold";
+	font-size: xx-large;
+	font-variant: small-caps;
+}
+</style>
+</head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>CRCV | Center for Research in Computer Vision at the University of Central Florida</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="UCF Center for Research in Computer Vision" />
+		<meta name="description" content="Website of the University of Central Florida's Center for Research in Computer Vision." />
+		<meta name="robots" content="all, index, follow" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="icon" type="image/ico" href="/images/favicon.png" />
+            <link href="/css/global.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="/css/header_bar.css" rel="stylesheet" type="text/css" media="screen" />
+            <link href="/css/home.css" rel="stylesheet" type="text/css" media="screen" />
+            <link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+            <link href="/css/mobile.css" rel="stylesheet" type="text/css" media="handheld" />
+            <link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+
+
+		<!-- ADD UCF HEADER -->
+		<script type="text/javascript" src="http://universityheader.ucf.edu/bar/js/university-header.js"></script>
+		<!-- END UCF HEADER -->
+		
+	</head>	
+
+<!--body id="main_body"-->
+<body id="secondary_interior_page">
+
+
+<!--span style="border-bottom:0px; color:#000000;"-->
+  <!-- IE Fix for HTML5 Tags -->
+
+  <!--[if lt IE 9]>
+
+    <script src="html5.js"></script>
+
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+
+    <link rel="stylesheet" href="/css/social_foundicons_ie7.css">
+
+  <![endif]--> 
+
+  <!--[if IE 7]>    <html class="ie7 oldie" lang="en"> <![endif]-->
+
+ 
+
+
+
+  <!-- Mimic Internet Explorer Not Compatibility Mode -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+
+  <meta name="viewport" content="width=device-width" />
+
+  <!-- Stylesheets -->
+
+  <link rel="stylesheet" href="/css/social_foundicons.css">
+
+  <link rel="stylesheet" href="/css/general_enclosed_foundicons.css">  
+
+  <link rel="stylesheet" href="/css/general_foundicons.css"> 
+
+  <link rel="stylesheet" href="/css/accessibility_foundicons.css"> 
+
+  <link rel="stylesheet" href="/css/foundation.min.css">
+
+  <link rel="stylesheet" href="/css/app.css">
+
+  <script src="/js/modernizr.foundation.js"></script>
+
+
+
+  <!-- ADD UCF HEADER -->
+
+  <script type="text/javascript" id="ucfhb-script" src="//universityheader.ucf.edu/bar/js/university-header.js"></script>  <!-- END UCF HEADER --> 
+
+
+
+  <!-- Icon -->
+
+  <link rel="shortcut icon" href="/images/global/favicon.png" type="image/ico">
+
+  <link rel="icon" href="/images/global/favicon.png" type="image/ico">
+
+  <!-- Icon -->
+
+</head>
+
+<body>
+
+<!--[if lt IE 8]>
+
+<div class="row">
+
+  <div class="alert-box alert arial">
+
+    You are currently using Internet Explorer Version 7 or lower. Some features of this webpage may not appear correctly. <br /><br />To close this window hit the X in the upper-right corner.
+
+    <a href="" class="close">&times;</a>
+
+  </div>  
+
+</div>
+
+<![endif]-->  
+
+<!--START MOBILE NAV-->
+
+<nav class="top-bar show-for-small">
+
+  <ul>
+
+    <!-- Title Area -->
+
+    <li class="name">
+
+      <h1>
+
+        <a href="#" style="color:white">
+
+          MENU
+
+		</a>
+
+      </h1>
+
+    </li>
+
+    <li class="toggle-topbar"><a href="#"></a></li>
+
+  </ul>
+
+
+
+  <section>
+
+    <!-- Left Nav Section -->
+
+    <ul class="left">
+
+      <li class="divider"></li>
+
+      <li><a class="navigation" href="/index.php" style="color:white">HOME</a></li>
+                            
+      <li class="divider"></li>
+
+      <li><a class="navigation" href="/about.php" style="color:white">ABOUT</a></li>
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">NEWS &amp; INFO</a>
+
+        <ul class="dropdown">
+
+          <li><a href="/news&info/news.php" style="color:white">News</a></li>
+
+          <li><a href="/news&info/seminars.php" style="color:white">Past Seminars</a></li>
+
+          <li><a href="/videos/Seminar_Videos/" style="color:white">Seminar Videos</a></li>
+
+        <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Newsletters</a>
+
+            <ul class="dropdown">
+
+              <li><a href="/news&info/newsletters/1011.php" style="color:white">2010-2011</a></li>
+
+              <li><a href="/news&info/newsletters/0809.php" style="color:white">2008-2009</a></li>
+
+              <li><a href="/academics/foundationexam.php" style="color:white">2007</a></li>
+
+              <li><a href="/news&info/newsletters/2006.php" style="color:white">2006</a></li>
+
+              <li><a href="/news&info/newsletters/2005.php" style="color:white">2005</a></li>
+
+              <li><a href="/news&info/newsletters/GAUSS.php" style="color:white">GAUSS</a></li>
+              
+              <li><a href="/news&info/newsletters/REU.php" style="color:white">REU</a></li>
+
+              <li><a href="/news&info/newsletters/FOCUS.php" style="color:white">FOCUS</a></li>              
+
+            </ul>
+
+          </li>
+
+		</ul>
+
+      </li>
+
+     
+
+  
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">PUBLICATIONS</a>
+
+            <ul class="dropdown">
+            	           	
+            	<li><a href="/papers/index.php" style="color:white">All Publications</a></li>     
+            	
+            	<li><a href="/papers/arxiv" style="color:white">arXiv</a></li>            	
+
+            	<li><a href="/papers/books" style="color:white">Books</a></li>            	            	
+
+            	<li><a href="/papers/book_chapters" style="color:white">Book Chapters</a></li>
+
+            	<li><a href="/papers/book_series" style="color:white">Book Series</a></li>
+
+	            <li><a href="/papers/conference_papers" style="color:white">Conference Papers</a></li>
+
+            	<li><a href="/papers/journal_papers" style="color:white">Journal Papers</a></li>
+            	         	
+            	<li><a href="/papers/technical_reports" style="color:white">Technical Reports</a></li>
+            
+            	<li><a href="/papers/theses.php" style="color:white">Theses</a></li>            	
+            	
+			</ul>
+			
+		</li>         
+
+
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">RESEARCH</a>
+
+        <ul class="dropdown">
+
+			<li class="has-dropdown">
+
+            	<a href="#" class="" style="color:white">Projects</a>
+            	
+            	<ul class="dropdown">
+            	
+            		<li><a href="/projects/human_action.php" style="color:white">Human Action and Activity Recognition</a></li>
+	
+					<li><a href="/projects/tracking" style="color:white">Tracking</a> </li>
+		
+					<li><a href="/projects/video_segmentation" style="color:white">Video Segmentation</a> </li>
+	
+					<li><a href="/projects/crowd" style="color:white">Crowd Analysis</a> </li>
+
+					<li><a href="/projects/motion" style="color:white">Motion Patterns</a> </li>
+
+					<li><a href="/projects/uav" style="color:white">UAV Video Analysis</a></li>
+
+					<li><a href="/projects/high_level" style="color:white">High Level Computer Vision</a></li>
+
+					<li><a href="/projects/object_scene" style="color:white">Object Detection and Scene Segmentation</a> </li>
+
+					<li><a href="/projects/multi_view" style="color:white">Exploiting Multiple View Data for Tracking, Reconstruction & Recognition</a></li>
+
+					<li><a href="/projects/bio" style="color:white">Biomedical Image Analysis</a> </li>
+
+					<li><a href="/projects/registration" style="color:white">Geospatial Localization/Registration</a> </li>
+
+					<li><a href="/projects/video_crt" style="color:white">Video Categorization, Retrieval and Temporal Segmentation</a></li>
+
+					<li><a href="/projects/event" style="color:white">Multimedia Event Detection</a></li>
+	
+					<li><a href="/projects/shading" style="color:white">Shape from Shading</a></li>
+
+					<li><a href="/projects/morphing" style="color:white">View Morphing</a></li>
+
+					<li><a href="/projects/facial_analysis" style="color:white">Facial Analysis</a></li>
+
+					<li><a href="/projects/aesthetics.php" style="color:white">Computational Visual Aesthetics</a></li>
+
+					<li><a href="/projects/systems" style="color:white">Computer Vision Systems</a></li>        
+
+					<li><a href="/projects/misc" style="color:white">Miscellaneous</a></li>
+            	
+            	</ul>
+          
+          </li> 	
+          
+          <li><a href="/presentations/index.php" style="color:white">Presentations</a></li>
+          
+        <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Source Code</a>
+
+            <ul class="dropdown">
+
+        		<li><a href="/source/MotionSegmentation" style="color:white">Motion Segmentation</a></li>
+	
+	        	<li><a href="/source/time_series_prediction" style="color:white">Time Series Prediction</a></li>
+	
+	            <li><a href="/source/background_modeling" style="color:white">Background Modeling</a></li>
+
+	            <li><a href="/source/shape_from_shading" style="color:white">Shape from Shading</a></li>
+
+	            <li><a href="/source/fundamental_matrix" style="color:white">Fundamental Matrix</a></li>
+
+	            <li><a href="/source/mean-shift" style="color:white">Mean-Shift Algorithms</a></li>
+
+	            <li><a href="/source/kernel_density" style="color:white">Kernel Density Estimation</a></li>
+
+	            <li><a href="/source/K-Means" style="color:white">K-Means Algorithms for Data Clustering</a></li>
+
+	            <li><a href="/source/normalized" style="color:white">Normalized Cuts</a></li>
+
+	            <li><a href="/source/dimension" style="color:white">Dimension Reduction</a></li>
+
+	            <li><a href="/source/facial" style="color:white">Facial Analysis</a></li>
+
+	            <li><a href="/source/optical" style="color:white">Optical Flow</a></li>
+
+	            <li><a href="/source/image_reg" style="color:white">Image Registration</a></li>
+
+	            <li><a href="/source/color_space" style="color:white">Color Space Transformations</a></li>
+
+	            <li><a href="/source/image_acq" style="color:white">Image Acquisition</a></li>
+
+	            <li><a href="/source/misc" style="color:white">Miscellaneous</a></li>
+
+	            <li><a href="/source/3D" style="color:white">3D SIFT</a></li>
+
+	            <li><a href="/source/SPREF" style="color:white">SPREF</a></li>
+
+	            <li><a href="/source/FRAISE" style="color:white">FRAISE</a></li>
+
+	            <li><a href="/source/video_object_segmentation" style="color:white">Video Object Segmentation</a></li>            
+
+	            <li><a href="/source/links" style="color:white">Useful Links</a></li>
+
+		  </ul>
+
+		</li>
+	          
+        <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Data Sets</a>
+
+            <ul class="dropdown">
+          
+          <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Human Actions</a>
+
+            <ul class="dropdown">
+
+	            <li><a href="/data/UCF101.php" style="color:white">UCF101</a></li>
+
+	            <li><a href="/data/UCF50.php" style="color:white">UCF50</a></li>
+
+				<li><a href="/data/UCF_YouTube_Action.php" style="color:white">UCF11 (YouTube Action)</a></li>
+
+	            <li><a href="/data/UCF_Sports_Action.php" style="color:white">UCF Sports Action</a></li>           
+
+				<li><a href="/data/UCF_Aerial_Action.php" style="color:white">UCF Aerial Action</a></li>
+
+	            <li><a href="/data/UCF-ARG.php" style="color:white">UCF-ARG</a></li>
+
+	            <li><a href="/data/UCF-iPhone.php" style="color:white">UCF-iPhone</a></li>
+	            
+	        </ul>
+
+	      </li>
+
+	            <li><a href="/data/crowd.php" style="color:white">Crowd Segmentation</a></li>
+
+	            <li><a href="/data/crowd_counting.php" style="color:white">Crowd Counting</a></li>
+
+	            <li><a href="/data/CLIF.php" style="color:white">CLIF Data Set Ground Truth</a></li>             
+
+	            <li><a href="/data/tracking.php" style="color:white">Tracking in High Density Crowds</a></li>
+
+	            <li><a href="/data/ParkingLOT" style="color:white">PNNL Parking Lot</a></li>
+
+	            <li><a href="/data/fire.php" style="color:white">Fire Detection in Video Sequences</a></li> 
+
+	            <li><a href="/data/VIRAT.php" style="color:white">VIRAT</a></li>
+
+	            <li><a href="/data/mocap.php" style="color:white">Motion Capture</a></li>
+
+	            <li><a href="/data/ALOV++" style="color:white">ALOV++</a></li>
+
+	            <li><a href="/data/GMCP_Geolocalization" style="color:white">Google Street View</a></li>    
+	            
+			</ul>
+			
+		</li>      
+          
+          <li><a href="/sponsors.php" style="color:white">Industry Sponsors</a></li>
+          
+        </ul>
+
+      </li>
+
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">REU</a>
+
+        <ul class="dropdown">
+
+			<li><a href="/REU" style="color:white">About</a></li>
+
+            <li><a href="/REU/grants.php" style="color:white">List of Grants</a></li>
+
+          <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Participants &amp; Projects</a>
+
+            <ul class="dropdown">
+
+	            <li><a href="/REU/2010s.php" style="color:white">2010s</a></li>
+
+	            <li><a href="/REU/2000s.php" style="color:white">2000s</a></li>
+
+	            <li><a href="/REU/1990s.php" style="color:white">1990s</a></li>
+
+	            <li><a href="/REU/1980s.php" style="color:white">1980s</a></li>	
+
+			</ul>
+
+		</li>
+
+            <li><a href="/REU/model.php" style="color:white">REU Model</a></li>
+
+            <li><a href="/REU/reu20celeb.php" style="color:white">Twenty Year Celebration</a></li>
+
+			<li><a href="/REU/papers.php" style="color:white">Publications</a></li>
+
+			<li><a href="/REU/honor.php" style="color:white">Honors in the Major Theses</a></li>
+
+        </ul>
+
+      </li>
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">COURSES</a>
+
+        <ul class="dropdown">
+
+            <li><a href="/courses/CAP4453" style="color:white">CAP 4453<br>Robot Vision</a></li>
+
+            <li><a href="/courses/CAP5415" style="color:white">CAP 5415<br>Computer Vision</a></li>
+
+            <li><a href="/courses/CAP6411" style="color:white">CAP 6411<br>Computer Vision Systems</a></li>
+
+            <li><a href="/courses/CAP6412" style="color:white">CAP 6412<br>Advanced Computer Vision</a></li>
+
+            <li><a href="/courses/COT6505" style="color:white">COT 6505<br>Computational Methods</a></li>
+
+            <li><a href="/courses/tutorials" style="color:white">Tutorials</a></li>
+                      
+          <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Video Lectures</a>
+
+            <ul class="dropdown">
+
+            <li><a href="/videos/lectures/2014.php" style="color:white">2014</a></li>
+
+            <li><a href="/videos/lectures/2012.php" style="color:white">2012</a></li>
+            
+			</ul>
+
+		</li>
+            
+        </ul>
+
+      </li>
+
+
+
+      <li class="divider"></li>
+
+      <li class="has-dropdown">
+
+        <a class="navigation" href="#" style="color:white">PEOPLE</a>
+
+        <ul class="dropdown">
+
+            <li><a href="/people/faculty.php" style="color:white">Faculty</a></li>
+
+            <li><a href="/people/guest_prof.php" style="color:white">Distinguished Guest Professors</a></li>
+
+            <li><a href="/people/associated_faculty.php" style="color:white">Associated Faculty</a></li>
+
+			<li><a href="/people/research_assoc.php" style="color:white">Research Associates</a></li>
+
+            <li><a href="/people/technical_staff.php" style="color:white">Technical Staff</a></li>
+
+            <li><a href="/people/office_staff.php" style="color:white">Office Staff</a></li>
+
+            <li><a href="/people/phd_students.php" style="color:white">Ph.D. Students</a></li>
+
+            <li><a href="/people/ms_students.php" style="color:white">M.S. Students</a></li>
+
+            <li><a href="/people/bs_students.php" style="color:white">B.S. Students</a></li>
+
+	        <li><a href="/people/hs_students.php" style="color:white">H.S. Students</a></li>
+
+  			<li><a href="/people/visitors.php" style="color:white">Visitors</a></li>
+
+          <li class="has-dropdown">
+
+            <a href="#" class="" style="color:white">Alumni</a>
+
+            <ul class="dropdown">
+
+	            <li><a href="/people/postdocs_alumni.php" style="color:white">Postdoc Researchers</a></li>
+
+	            <li><a href="/people/phd_students_alumni.php" style="color:white">Ph.D. Students</a></li>
+
+	            <li><a href="/people/ms_students_alumni.php" style="color:white">M.S. Students</a></li>
+
+	            <!--<li><a href="/people/bs_students_alumni.php" style="color:white">B.S. Students</a></li>-->
+
+	            <li><a href="/people/hs_students_alumni.php" style="color:white">H.S. Students</a></li>
+	
+	            <li><a href="/people/visitors_alumni.php" style="color:white">Visitors</a></li>       
+                    
+			</ul>
+
+		</li>
+            
+        </ul>
+
+      </li>
+
+
+
+      <li class="divider"></li>
+
+      <li><a class="navigation" href="/join" style="color:white">JOIN</a></li>
+
+
+
+      <li class="divider"></li>
+
+      <li><a class="navigation" href="/contact" style="color:white">CONTACT US</a></li>
+
+  
+
+    </ul>
+
+  </section>
+
+</nav>
+
+<!--END MOBILE NAV-->
+
+
+
+
+
+
+
+<!--START HEADER IMAGES-->
+
+<div class="row hide-for-small">
+
+  <div class="header twelve columns">
+
+    <a href="http://crcv.ucf.edu"><img src="/images/topbar_logo.png" alt="Center for Research in Comptuer Vision" vspace="15px"></a><br />
+
+  </div>
+
+</div>
+
+
+
+<div class="row show-for-small">
+
+  <div class="header twelve columns">
+
+    <a href="http://crcv.ucf.edu"><img src="/images/topbar_logo.png" alt="Center for Research in Comptuer Vision" vspace="15px"></a><br />
+
+    </div>
+
+</div>
+
+<!--END HEADER IMAGES-->
+
+<!--START NAV-->
+
+<div class="row hide-for-small">
+
+  <div class="nav-bar twelve columns">
+  	
+<!--    <a class="navigation" href="/index.php">HOME</a> -->
+
+    <a class="navigation" href="/about.php">ABOUT</a>
+
+    <a class="navigation" href="/news&info/news.php">NEWS &amp; INFO</a>
+
+    <a class="navigation" href="/papers/">PUBLICATIONS</a>
+
+    <a class="navigation" href="/research">RESEARCH</a>    
+
+    <a class="navigation" href="/REU">REU</a>
+
+    <a class="navigation" href="/courses/">COURSES</a>
+
+    <a class="navigation" href="/people">PEOPLE</a>
+
+	<a class="navigation" href="/join">JOIN</a>
+	
+    <a class="navigation" href="/contact">CONTACT</a>
+        
+  </div>
+
+</div>
+
+<hr>
+
+<!--END NAV-->
+
+<br class="showorhideIE" />
+
+
+
+<!--</body>--><!--/span-->
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css">
+<link rel="stylesheet" href="css/themes/default/default.css" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+    	controlNav: false
+    });
+});
+</script>
+
+
+<div id="home_content">
+<!--
+	<h1>CRCV | Center for Research in Computer Vision</h1>
+-->
+
+<div>
+<center>
+	<table>
+		<tr>
+			<td class="auto-style2"><a href="news&info/jobad.php">Tenure-Track Faculty Position in Computer Vision and <br><br>Deep Learning at the Center for Research in Computer Vision</a></td>
+		</tr>
+
+		<!--tr>
+			<td><center><br><br>
+			<img src="images/big_play.png" height="65" width="65"><br><a href="/videos/lectures/2014.php">Computer Vision Video Lectures</a></center></td>
+		</tr-->
+	</table>
+</center>
+</div>
+
+<br>
+<br>
+
+<div class="slider-wrapper theme-default">
+	<div id="slider" class="nivoSlider">
+	<img src="images/slideshow/cvpr2018-group.jpg" title="CRCV Group Photo at CVPR 2018">
+    <img src="images/slideshow/GroupPictureNOV2017.jpg" title="CRCV Group Photo - November 2017"> 
+    <img src="images/slideshow/TakeoKanadeWithCRCV-2.jpg" title="Takeo Kanade with CRCV"> 
+	<a href="/news&info/seminars/Tsotsos.php"><img src="images/slideshow/John_Tsotsos.jpg" title="Invited Speaker - John Tsotsos, York University"></a> 
+	<a href="/news&info/seminars/Spampinato.php"><img src="images/slideshow/jacquephoto.com_2511.jpg" title="Invited Speaker - Concetto Spampinato, University of Catania"></a> 
+       	<a href="/REU/2017/RET/"><img src="images/slideshow/RET17.jpg"  title="RET 2017" /></a>    
+       	<a href="/news&info/Dehghan_GRF17.php"><img src="images/slideshow/GRF17.jpg"  title="GRF 2017" /></a>    
+       	<a href="/REU/2016/"><img src="images/slideshow/REU16.jpg"  title="REU 2016" /></a>    
+	<a href="/news&info/ISBI2017.php"><img src="images/slideshow/Bagci_ISBI17.png"></a>
+  	<a href="/news&info/seminars/Ponce.php"><img src="images/slideshow/Ponce_20170216.png"></a> 
+  	<a href="http://www.students.graduate.ucf.edu/research_forum/" target="_blank"><img src="images/slideshow/GRF2017.png"></a>
+ 	<a href="/news&info/seminars/Pelillo.php"><img src="images/slideshow/Marcello_20161209.jpg"></a>          
+ 	<a href="/news&info/seminars/Laptev.php"><img src="images/slideshow/Laptev1.jpg"></a>
+	<a href="/news&info/GRF2016.php"><img src="images/slideshow/GRF2016.jpg"></a>
+	<a href="/news&info/Bagci.php"><img src="images/slideshow/Ulas_Bagci_Banner.jpg"></a>
+	<a href="/projects/SemanticImageSearch/"><img src="images/slideshow/Vaca_ACMMM15.png"></a>
+	<a href="/news&info/acmmm15.php"><img src="images/slideshow/Kalayeh_ACMMM15.jpg"></a>
+        <a href="http://crcv.ucf.edu/news&info/fat_analysis.php/"><img src="images/slideshow/CFF.jpg" title="UCF-Developed Software Analyzes Fat in Seconds" /></a>
+        <a href="/news&info/niaid.php"><img src="images/slideshow/niaid_mers.png" title="Experimental MERS Vaccine Shows Promise in Animal Studies" /></a>        
+        <a href="/news&info/cvpr15.php"><img src="images/slideshow/Dehghan_GMMCP_CVPR15.png"></a>
+        <a href="/news&info/cvpr15.php"><img src="images/slideshow/Ardeshir_CVPR15.jpg"></a>
+        <a href="/news&info/cvpr15.php"><img src="images/slideshow/Dehghan_CVPR15.png"></a>
+        <a href="/news&info/reap15.php"><img src="images/slideshow/2015_REAP.jpg" title="2015 REAP Students" /></a>        
+	<a href="https://sites.google.com/site/thesg2008/" target="_blank"><img src="/images/slideshow/Shu_Grad.png" title="Ph.D. Commencement of Guang Shu" /></a>
+        <a href="/REU/"><img src="images/slideshow/reu_poster_session.JPG" alt=""/></a>        
+        <a href="http://today.ucf.edu/whos-daddy-ucf-students-program-computer-find/" target="_blank"><img src="images/slideshow/faces.jpg"></a>
+        <a href="/papers/books"><img src="/images/slideshow/books.png"></a>
+        <a href="/news&info/cvpr14.php"><img src="images/slideshow/Sultani_CVPR14.png"></a>        
+        <a href="/news&info/cvpr14.php"><img src="images/slideshow/Dehghan_CVPR14.png"></a>		
+        <a href="/news&info/cvpr14.php"><img src="images/slideshow/Dehghan_CVPR14_2.jpeg"></a>	
+        <a href="/papers/cvpr2014/CVPR14-ImageAnnotation.pdf" target="_blank"><img src="images/slideshow/Kalayeh_CVPR14.jpg"></a>
+        <a href="http://techtalks.tv/talks/recognition-of-complex-events-exploiting-temporal-dynamics-between-underlying-concepts/60305/" target="_blank"><img src="images/slideshow/Bhattacharya_CVPR14.jpg"></a>
+        <a href="/news&info/cvpr14.php"><img src="images/slideshow/Modiri_CVPR14.jpg"></a>        
+        <a href="/news&info/cvpr14.php"><img src="images/slideshow/RoshanZamir_CVPR14.png"></a>        
+        <img src="images/slideshow/2.jpg" alt=""/>
+        <a href="http://enriquegortiz.com" target="_blank"><img src="images/slideshow/Ortiz_Grad.jpg" alt=""/></a>
+        <a href="http://www.cs.ucf.edu/~aroshan/" target="_blank"><img src="images/slideshow/RoshanZamir_Grad.jpg" alt=""/></a>       
+        <a href="/news&info/GRF2014.php"><img src="/images/slideshow/GRF2014.jpg"></a>
+        <a href="/news&info/Sivic.pdf" target="_blank"><img src="images/slideshow/Sivic_20140428.png" alt=""/></a>        
+        <a href="/news&info/Forsyth.pdf" target="_blank">
+		<img src="images/slideshow/Forsyth_20140224.JPG" alt=""/></a>
+        <a href="/news&info/Peleg.pdf" target="_blank"><img src="images/slideshow/Peleg_20140130.png" alt=""/></a>
+        <a href="/news&info/Kittler.pdf" target="_blank"><img src="images/slideshow/Kittler_20140115.png" alt=""/></a>                
+        <a href="/news&info/seminars.php"><img src="images/slideshow/Smeulders_20130802.JPG" alt=""/></a>
+        <a href="news&info/Schmid.pdf" target="_blank"><img src="images/slideshow/Schmid_2013.png" alt=""/></a>
+        <a href="http://www.students.graduate.ucf.edu/research_forum/" target="_blank"><img src="images/slideshow/award_UCF_GRF.jpg" alt=""/></a>         
+        <a href="news&info/Wright_CRA_Award.php"><img src="images/slideshow/Wright_CRA_Award.jpg" alt=""/></a>      
+        <a href="news&info/ijcv13.php"><img src="images/slideshow/clif-ijcv-2013.jpg" alt=""/></a>      
+        <a href="/papers/SCOOP.pdf" target="_blank"><img src="images/slideshow/Reilly_IJCV12.png" alt=""/></a>      
+        <a href="/projects/DiscoveringMotionPrimitives/"><img src="images/slideshow/Yang_PAMI12.jpg" alt=""/></a>   
+        <a href="/papers/cvpr2013/cvpr2013-sdpm.pdf" target="_blank"><img src="images/slideshow/Tian_CVPR13.jpg" alt=""/></a>        
+        <a href="/papers/cvpr2013/CVPR2013_Yang_FinalVersion_HumanDetection.pdf" target="_blank"><img src="images/slideshow/Yang_CVPR13.jpg" alt=""/></a>          
+        <a href="/papers/cvpr2013/CVPR13_final_guang.pdf" target="_blank"><img src="images/slideshow/Shu_CVPR13.png" alt=""/></a>
+        <a href="/papers/cvpr2013/VideoObjectSegmentation.pdf" target="_blank"><img src="images/slideshow/Zhang_CVPR13.png" alt=""/></a>
+        <a href="news&info/Corso.pdf" target="_blank"><img src="images/slideshow/Corso_20130401.JPG" alt=""/></a>
+        <a href="news&info/Fergus.pdf" target="_blank"><img src="images/slideshow/Fergus_20130320.png" alt=""/></a>
+        <a href="/projects/video-face-recognition"><img src="images/slideshow/Ortiz_CVPR13.jpg" alt=""/></a>   
+        <a href="/projects/HON4D"><img src="images/slideshow/Oreifej_CVPR13.png" alt=""/></a>        
+        <a href="/projects/crowdCounting/index.php"><img src="images/slideshow/Idrees_CVPR13.jpg" alt=""/></a>
+        <a href="/data/UCF101.php"><img src="images/slideshow/UCF101.png" alt=""/></a>
+        <a href="/statess" target="_blank"><img src="images/slideshow/STATESS_celebration.jpg" alt=""/></a>
+        <a href="/news&info/seminars.php"><img src="images/slideshow/Chen_Tsuhan.png" alt=""/></a>
+       	<a href="/news&info/seminars.php"><img src="images/slideshow/Bandini_Stefania.jpg" alt=""/></a>
+        <a href="/papers/eccv2010/Zamir_ECCV_2010.pdf" target="_blank"><img src="images/slideshow/Amir_ECCV10.jpg" alt=""/></a>        
+        <a href="http://www.research.ucf.edu/news/20121120UCF_HonorsMillionaires.html" target="_blank"><img src="images/slideshow/2012millionaires.jpg" alt=""/></a>
+        <a href="http://www.research.ucf.edu/news/20121120UCF_HonorsMillionaires.html" target="_blank"><img src="images/slideshow/innovators2012pic.jpg" alt=""/></a>
+        <a href="http://reddykishore.wordpress.com" target="_blank"><img src="images/slideshow/Reddy_Grad.jpg" alt=""/></a>        
+        <a href="http://www.cs.ucf.edu/~vsreilly/" target="_blank"><img src="images/slideshow/Reilly_Grad.jpg" alt=""/></a>
+<!--
+        <a href="/news&info/NHK.php"><img src="/images/slideshow/ACMMM2014.JPG"></a>
+-->
+        <a href="http://www.cs.ucf.edu/~bsolmaz/" target="_blank"><img src="images/slideshow/Solmaz_Grad.jpg" alt=""/></a>
+        <a href="http://www.cs.ucf.edu/~subh/" target="_blank"><img src="images/slideshow/Subh_Grad.jpg" alt=""/></a>
+        <a href="http://www.cs.ucf.edu/~yyang/" target="_blank"><img src="images/slideshow/Yang_Grad.jpg" alt=""/></a>
+        <img src="images/slideshow/GAUSS_2012.jpg" alt=""/>
+        <a href="/projects/HiddenInference/"><img src="images/slideshow/Idrees_ECCV12.jpg" alt=""/></a>
+        <a href="/projects/HiddenInference/tracking_index.php"><img src="images/slideshow/Haroon_ECCV12_LandscapeInvisible.jpg" alt=""/></a>        
+        <a href="/news&info/MVA/index.php"><img src="images/slideshow/MVA.jpeg"></a>
+        <a href="/projects/UCF50/"><img src="images/slideshow/UCF50.jpg"></a>        
+	</div>
+</div>
+<!--
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
+-->
+
+	<br><br>
+	
+    <div class="spotlight">
+        <h2>Spotlight</h2>
+
+	<div class="strategic_ad">
+	    <span><a href="data/RSNA2018/RSNA2018_cardiac.pdf"><img src="data/RSNA2018/RSNA2018.PNG" height="75px" width="100px"></a></span>
+	    <h3 class="spotlight_title"><a href="data/RSNA2018/RSNA2018_cardiac.pdf">Cardiac Image Analysis with Deep Learning Method</a></h3>
+	    <div class="first last"><p>Presented in Annual Meeting of the Radiological Society of North America 2018</p></div>
+	</div>
+	<div class="strategic_ad">
+	    <span><a href="data/ucf-qnrf/"><img src="data/ucf-qnrf/ucf-qnrf-sample.png" height="75px" width="100px"></a></span>
+	    <h3 class="spotlight_title"><a href="data/ucf-qnrf/">UCF-QNRF - A Large Crowd Counting Data Set</a></h3>
+	    <div class="first last"><p>Automatic counting and localizing in dense crowd scenes...</p></div>
+	    <p class="read_more"><a href="data/ucf-qnrf/">Read More...</a></p>
+	</div>
+	<div class="strategic_ad">
+            <span><a href="projects/real-world/"><img src="projects/real-world/project-thumbnail.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/real-world">Real-world Anomaly Detection in Surveillance Videos</a></h3>
+            <div class="first last"><p>Surveillance videos are able to....</p></div>
+            <p class="read_more"><a href="projects/real-world/">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="projects/ego2top/"><img src="projects/ego2top/sceneMatching_teaser_v7.jpg" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/ego2top">ego2Top: Matching Viewers in Egocentrice and Top-View Videos (ECCV 2016)</a></h3>
+            <div class="first last"><p>Thanks to the availability and...</p></div>
+            <p class="read_more"><a href="projects/ego2top">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="/data/Selfie/"><img src="/data/Selfie/selfie_dataset6.jpg" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="/data/Selfie/">Selfie Data Set</a></h3>
+            <div class="first last"><p>Selfie data set contains 46,836 selfie images annotated with 36 different...</p></div>
+            <p class="read_more"><a href="projects/video_segmentation">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="projects/video_segmentation"><img src="projects/video_object_segmentation/video_object_segmentation.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/video_segmentation">Video Segmentation</a></h3>
+            <div class="first last"><p>View our project pages here.</p></div>
+            <p class="read_more"><a href="projects/video_segmentation">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="projects/SceneLabeling"><img src="projects/SceneLabeling/intro_cvpr2016.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/SceneLabeling">Scene Labeling Using Sparse Precision Matrix</a></h3>
+            <div class="first last"><p>Semantic image segmentation, assigning a label from many....</p></div>
+            <p class="read_more"><a href="projects/multi-camera.php">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="projects/multi-camera.php"><img src="projects/HiddenInference/HiddenInference_files/image024.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/multi-camera.php">Multi-Camera Video Analysis</a></h3>
+            <div class="first last"><p>View our project pages here.</p></div>
+            <p class="read_more"><a href="projects/multi-camera.php">Read More...</a></p>
+        </div>   
+
+		<div class="strategic_ad">
+            <span><a href="http://today.ucf.edu/ucf-researchers-perform-worlds-first-automated-mass-crowd-count/" target="_blank"><img src="/news&info/crowdcount.jpg" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="http://today.ucf.edu/ucf-researchers-perform-worlds-first-automated-mass-crowd-count/" target="_blank">UCF Researchers Perform World's First Automated Mass-Crowd Count</a></h3>
+            <div class="first last"><p>Computers have scanned aerial photographs and conducted the....</p></div>
+            <p class="read_more"><a href="http://today.ucf.edu/ucf-researchers-perform-worlds-first-automated-mass-crowd-count/" target="_blank">Read More...</a></p>
+        </div>   
+
+       		<div class="strategic_ad">
+            <span><a href="projects/crowd/index.php"><img src="/projects/crowd/fig_Main.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/crowd/index.php">Detecting Humans in Dense Crowd Images</a></h3>
+            <div class="first last"><p>Human detection in dense crowds is an important problem, as it is a prerequisite...</p></div>
+            <p class="read_more"><a href="projects/crowd/index.php">Read More...</a></p>
+        </div>   		
+  
+		<div class="strategic_ad">
+            <span><a href="projects/GMCP-Tracker/"><img src="/projects/GMCP-Tracker/image003.jpg" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/GMCP-Tracker/">GMCP-Tracker: Global Multi-object Tracking Using Generalized Minimum Clique Graphs</a></h3>
+            <div class="first last"><p>Data association is an essential component of any human...</p></div>
+            <p class="read_more"><a href="projects/GMCP-Tracker/">Read More...</a></p>
+        </div>   		
+  
+        <div class="strategic_ad">
+            <span><a href="http://www.cs.ucf.edu/~oreifej/Action.html" target="_blank"><img src="http://www.cs.ucf.edu/~oreifej/images/Action_1.png" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="http://www.cs.ucf.edu/~oreifej/Action.html" target="_blank">Action Recognition in Videos Acquired by a Moving Camera Using Motion Decomposition of Lagrangian Particle Trajectories</a></h3>
+            <div class="first last"><p>Recognition of human actions in...</p></div>
+            <p class="read_more"><a href="/projects/MotionDecomposition/">Read More...</a></p>
+        </div>
+
+		<div class="strategic_ad">
+            <span><a href="http://vision.eecs.ucf.edu/projects/WhereAmI/ProjectPage-WhereAmI.htm" target="_blank"><img src="http://vision.eecs.ucf.edu/projects/WhereAmI/Project Page-Where Am I_files/image006.jpg" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="http://vision.eecs.ucf.edu/projects/WhereAmI/ProjectPage-WhereAmI.htm" target="_blank">Geo-spatial Localization Using Google Street View</a></h3>
+            <div class="first last"><p>In this project a new system for image localization and location recognition in terms of ...</p></div>
+            <p class="read_more"><a href="http://vision.eecs.ucf.edu/projects/WhereAmI/ProjectPage-WhereAmI.htm" target="_blank">Read More...</a></p>
+        </div>   
+        
+ 		<div class="strategic_ad">
+            <span><a href="http://www.vision.eecs.ucf.edu/projects/streakline_eccv/ramin_eccv_streakline.html" target="_blank"><img src="http://www.vision.eecs.ucf.edu/projects/streakline_eccv/imgs/3_representations.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="http://www.vision.eecs.ucf.edu/projects/streakline_eccv/ramin_eccv_streakline.html" target="_blank">A Streakline Representation of Flow in Crowded Scenes</a></h3>
+            <div class="first last"><p>Based on the Lagrangian framework for fluid dynamics, a streakline representation of flow...</p></div>
+            <p class="read_more"><a href="http://www.vision.eecs.ucf.edu/projects/streakline_eccv/ramin_eccv_streakline.html" target="_blank">Read More...</a></p>
+        </div>   
+               
+		<div class="strategic_ad">
+            <span><a href="news&info/pami13.php"><img src="news&info/trackerSurvey.jpg" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="news&info/pami13.php">ALOV300++ New Multi-Object Tracking Dataset</a></h3>
+            <div class="first last"><p>There is a large variety of trackers, which have been proposed in the literature during the last two decades with some mixed success...</p></div>
+            <p class="read_more"><a href="news&info/pami13.php">Read More...</a></p>
+        </div>        
+        <div class="strategic_ad">
+            <span><a href="projects/CLIF/CLIF_tracking.php"><img src="projects/CLIF/CLIF_files/image004.gif" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/CLIF/CLIF_tracking.php">Tracking Wide Area UAV Videos</a></h3>
+            <div class="first last"><p>The problem that this project deals with is that of detection and tracking of large number of 
+            objects in Wide Area Surveillance (or WAS) data. WAS is aerial...</p></div>
+            <p class="read_more"><a href="projects/CLIF/CLIF_tracking.php">Read More...</a></p>
+        </div>
+
+        <div class="strategic_ad">
+            <span><a href="projects/DiscoveringMotionPrimitives"><img src="projects/DiscoveringMotionPrimitives/fig5.png" height="75px" width="100px"></a></span>
+            <h3 class="spotlight_title"><a href="projects/DiscoveringMotionPrimitives">Discovering Motion Primitives for Unsupervised Grouping and One-shot Learning of Human Actions, Gestures, and Expressions</a></h3>
+            <div class="first last"><p>Given the very large volume of...</p></div>
+            <p class="read_more"><a href="projects/DiscoveringMotionPrimitives">Read More...</a></p>
+        </div>    
+
+<!--
+        <p class="more"><a href="">Spotlight Archive</a></p>
+-->    
+    </div>
+
+    <div id="news">
+        <h2>News</h2>
+        <dl>
+		<dt><a href="https://cacm.acm.org/magazines/2019/1/233520-ucfs-30-year-reu-site-in-computer-vision/fulltext" target="_blank">Communcations of the ACM's article about UCF's 30-Year REU Site</a></dt>
+		<dt><a href="news&info/Yicong_Bi-fold.pdf" target="_blank">Announcing the Final Examination of Yicong Tian for the degree of Doctor of Philosophy</a></dt>
+		<dt><a href="news&info/bagci-lung-cancer-tool.php">Media Release and News about Lung Cancer-AI Tool from CRCV</a></dt>
+		<dt><a href="news&info/CVPR2018BestPapers.php">CVPR 2018: Best Paper and Best Student Paper Awards</a></dt>
+		<dt><a href="news&info/mahalanobis.php">Abhijit Mahalanobis Joins CRCV</a></dt>
+		<dt><a href="news&info/Sarfaraz_Defense_Official_JUN18.pdf" target="_blank">Announcing the Final Examination of Sarfaraz Hussein for the degree of Doctor of Philosophy</a></dt>
+		<dt><a href="news&info/RETWorkshop.php">Research Experience for Teachers (RET) Dissemination Workshop</a></dt>
+		<dt><a href="news&info/crowdcountingdemo.php">Crowd Counting Demo Available</a></dt>
+		<dt><a href="REU/2018RETFlyer.pdf" target="_blank">Apply for 2018 Research Experience for Teachers (RET) in Computer Vision</a></dt> 
+	        <dt><a href="news&info/watane.php">Arjun Watane Selected for the Honors in the Major Outstanding Theses Award</a></dt>   
+	        <dt><a href="news&info/cvpr18.php">CRCV has 10 Papers Accepted to CVPR 2018</a></dt>   
+		<dt><a href="/strong">Great Scholarship Opportunities! STRONG (STEM TRansfers' Opportunities for Nurtured Growth) Is looking for qualified students!</a></dt>
+		<dt><a href="REU">Apply for 2018 Research Experience for Undergraduates (REU) in Computer Vision</a></dt>   	
+		<dt><a href="https://patents.google.com/patent/US20180005071A1/en" target="_blank">Patent Awarded for Multi-Source, Multi-Scale Counting in Dense Crowd Images</a></dt>
+		<dt><a href="https://today.ucf.edu/ucf-grant-from-national-science-foundation-grant-to-help-transfer-stem-students/" target="_blank">CRCV Receives $1 Million Grant from NSF</a></dt>
+		<dt><a href="news&info/TPAMI2017.php">TPAMI Paper on "Large-Scale Image Geo-Localization Using Dominant Sets" Accepted</a></dt>
+		<dt><a href="https://today.ucf.edu/innovators-honored-making-impact/" target="_blank">Dr. Shah Among Innovators Honored for Making an Impact</a></dt>
+		<dt><a href="/news&info/RSNA2017.php">Dr.Bagci receives Certificate of Merit from RSNA 2017</a></dt>
+          	<dt><a href="/news&info/DefenseBooklet_FA17.pdf" target="_blank">Final Examinations of Vaca-Castano, Souly and Soomro</a></dt>
+		<dt><a href="http://csrankings.org/#/index?vision" target="_blank">UCF is ranked no. 6 in the US and no. 11 in the world in the area of computer vision</a></dt>
+		<dt><a href="news&info/BIGDATA.php">First NSF Grant Under BIGDATA</a></dt>
+		<dt><a href="news&info/nominations.php">Award Nominations for Harish and AliAsghar</a></dt>
+		<dt><a href="CRCV_Brochure-FINAL_8-15~1.pdf">View our new CRCV Brochure</a></dt>
+		<dt><a href="news&info/luminary.php">Dr. Shah Receives the inaugural UCF Luminary Award</a></dt>
+		<dt><a href="https://today.ucf.edu/ucf-celebrate-success-30-year-old-nsf-funded-program/" target="_blank">UCF to Celebrate Success of 30-		Year-Old NSF Funded Program</a></dt>
+		<dt><a href="news&info/pami17.php">2 PAMI Papers Accepted</a></dt>
+		<dt><a href="news&info/iccv17.php">10 Papers Accepted at ICCV 2017</a></dt>
+          	<dt><a href="news&info/Sultani_Defense.pdf" target="_blank">Final Examination of Waqas Sultani</a></dt>
+		<dt><a href="news&info/classic_paper.php">Classic Papers in Multimedia: Dr. Shah's paper with his student Yun Zhai listed as top fourth by 		Google</a></dt>
+		<dt><a href="news&info/smc17.php">IEEE SMC 2017 paper is accepted!</a></dt>
+		<dt><a href="news&info/miccai17.php">MICCAI 2017 paper is accepted: CardiacNET!</a></dt>
+		<dt><a href="news&info/IPMI2017.php">IPMI 2017 paper is accepted for publication!</a></dt>
+        	<dt><a href="http://www.sciencemag.org/news/2017/04/new-software-can-track-many-individuals-crowd" target="_blank">CRCV research on crowd tracking highlighted in Science Magazine (AAAS)</a></dt>
+		<dt><a href="news&info/RET_Flyer_2017.pdf" target="_blank">Research and Experience for Teachers *Orange County and Seminole County High School Teachers*</a></dt>
+		<dt><a href="news&info/RET_Workshop_Flyer_2017.pdf" target="_blank">Dissemination Workshop - Research Experience for Teachers, 2017</a></dt>
+		<dt><a href="news&info/research17.php">Dr. Shah receives the 2017 University Excellence in Research Award!</a></dt>
+		<dt><a href="news&info/Dehghan_GRF17.php">Dr. Dehghan receives award for Outstanding Dissertation</a></dt>
+		<dt><a href="news&info/mentor16.php">Dr. Shah receives the 2016 award for Faculty Excellence in Mentoring Doctoral Students</a></dt>
+		<dt><a href="news&info/hsap17.php">Apply for the High School Apprenticeship Program</a></dt>
+        	<dt><a href="news&info/REU30.php">30 Year Celebration of NSF REU in Computer Vision at UCF</a><br>July 17, 2017</dt>
+	        <dt><a href="news&info/cvpr17.php">Our CVPR 2017 papers</a></dt>   
+        	<dt><a href="news&info/BagciDOHGrant.php">Dr. Bagci receives grant from the State of Florida, Department of Health</a></dt>    
+	        <dt><a href="news&info/GoogleLimeScholar.php">Fareeha Irfan selected as the 2017 Google Lime Scholar!</a></dt>    
+		<dt><a href="REU/2017RETFlyer.pdf" target="_blank">Apply for 2017 Research Experience for Teachers (RET) in Computer Vision</a></dt> 
+		<dt><a href="REU">Apply for 2017 Research Experience for Undergraduates (REU) in Computer Vision</a></dt>   	
+	        <dt><a href="news&info/ismrm17.php">One ISMRM 2017 Abstract</a></dt>    
+        	<dt><a href="http://spectrum.ieee.org/tech-talk/robotics/artificial-intelligence/ai-could-transform-the-science-of-counting-crowds" target="_blank">IEEE Spectrum query on automated crowd counting</a></dt>
+           	<dt><a href="news&info/ISBI2017.php">Two papers are accepted for publication in IEEE ISBI 2017!</a></dt>        
+           	<dt><a href="https://www.fastcompany.com/3067376/fast-cities/the-science-and-politics-of-counting-the-crowds-at-the-inauguration-and-womens-m" target="_blank"><!--FastCompany.pdf-->The Science And Politics Of Counting The Crowds At The Inauguration And Women's March</a></dt>        
+           	<dt><a href="news&info/ieee-tmi.php">IEEE Transactions on Medical Imaging paper is accepted for publication!</a></dt>        
+           	<dt><a href="news&info/rsna16.php">Deep Learning in Radiology</a></dt>
+           	<dt><a href="news&info/miccai16.php">Dr. Bagci has received the "best reviewer award" from MICCAI 2016!</a></dt>
+           	<dt><a href="news&info/CFP_CMMI.php">CALL FOR PAPERS - SPECIAL ISSUE: Computerized Methods in Molecular Imaging Analytics</a></dt>
+
+        </dl>
+        <p class="more"><a href="news&info/news.php">More News</a></p>
+    </div>
+
+    <div id="campus_events">
+        <div id="events" class="events">
+        
+            <h4 style="color:#B38C0B;font-size: 12px;">Seminar Videos</h4>
+			<a href="/videos/Seminar_Videos">Click Here</a><br><br><br>
+		
+            <h4 style="color:#B38C0B;font-size: 12px;">Upcoming Seminars</h4>
+			<!--To be announced<br><br><br-->
+
+			<table class="eventlisting">
+                <thead>
+                    <tr>
+                        <th scope="col" class="date">Date</th>
+                        <th scope="col" class="description">Description</th>
+                    </tr>
+                </thead>
+		
+            <tbody>                                    
+
+		<tr class="vevent">
+                    <td class="date">February 22 2:00PM, Research I RM-101</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/CRCVUCF-Ramesh-Jain.pdf">A Navigational Approach to Health</a>
+                        by Dr. Ramesh Jain of the University of California
+			<span class="location"></span>
+                    </td>
+                </tr>
+		<tr class="vevent">
+                    <td class="date">January 30 2:00PM, Creol-103</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/UCF_Chellappa.pdf">Deep Learning, Generative Adversarial Networks and Domain Adaptation - Technologies that will Transform Clinical Research and Health Care</a>
+                        by Dr. Rama Chellappa of the University of Maryland
+			<span class="location"></span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">April 10 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Rajpoot.php">Mining for Histological Footprints of Cancer</a>
+                        by Dr. Nasir Rajpoot of the University of Warwick
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+
+
+
+
+            </tbody>
+            </table>
+
+			<br>
+
+            <h4 style="color:#B38C0B;font-size: 12px;">Past Seminars</h4>
+
+            <table class="eventlisting">
+
+                <thead>
+                    <tr>
+                        <th scope="col" class="date">Date</th>
+                        <th scope="col" class="description">Description</th>
+                    </tr>
+                </thead>
+            <tbody>   
+		<tr class="vevent alt">
+                    <td class="date">March 29 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Smeulders.php">What can be derived from an instance?</a>
+                        by Dr. Arnold Smeulders of the University of Amsterdam
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">March 28 2:30PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Mahalanobis.php">Recent Advances in Algorithms for Automatic Target Detection and Recognition</a>
+                        by Dr. Abhijit Mahalanobis of Lockheed Martin Corporation
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">March 7 3:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Kanade.php">Fun Research in Computer Vision and Robotics</a>
+                        by Dr. Takeo Kanade of Carnegie Mellon University
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">Feb 14 1:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Tsotsos.php">Vision, Brain, Computation and Attention: What You Really Need to Know</a>
+                        by Dr. John Tsostsos of York University
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">Dec 15 10:30AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Gong_Minglun.php">Two Routes for Image-to-Image Translation: Rule-based vs. Learning-based</a>
+                        by Dr. Minglun Gong  of the Memorial University of Newfoundland
+			<span class="location">HEC 450</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">Dec 11 4:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Mian.php">D&eacute;j&agrave; V&eacute;cu: Learning from Legacy MoCap Data for
+Robust Human Action Recognition</a>
+                        by Dr. Ajmal Mian of the University of Western Australia
+			<span class="location"></span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">Nov 20 4:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Huang.php">3D-Centric Data-Driven Visual Computing</a>
+                        by Dr. Qixing Huang of the University of Texas
+			<span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">Nov 2 10:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/DefenseBooklet_FA17.pdf" target="_blank">Final Oral Examination of Gonzalo Vaca-Castano</a>
+                        <span class="location">HEC 101B</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">Nov 3 10:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/DefenseBooklet_FA17.pdf" target="_blank">Final Oral Examination of Nasim Souly</a>
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">Nov 3 2:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/DefenseBooklet_FA17.pdf" target="_blank">Final Oral Examination of Khurram Soomro</a>
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">Oct 11 4:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Spampinato.php">Human-Machine Computer Vision Systems 
+			 Transferring Human Capabilities to Visual Classifiers</a>
+                        by Dr. Concetto Spampinato of the University of Catania
+                        <span class="location">PS160/161</span>
+                    </td>
+                </tr>
+ 
+		<tr class="vevent">
+                    <td class="date">August 2 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Chen.php">von Mises-Fisher Mixture Model-based Deep learning and its Application to Face Verification</a>
+                        by Dr. Liming Chen of University of Lyon, France
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent alt">
+                    <td class="date">July 17 11:15AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Nayar.php">Computational Imaging</a>
+                        by Dr. Shree Nayar of Columbia University
+                        <span class="location">UCF Alumni Center</span>
+                    </td>
+                </tr>
+
+		<tr class="vevent">
+                    <td class="date">July 6 1:30PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/BenAmor.php">Rate-invariant analysis of trajectories on Kendall shape space-applications to 3D action recognition and physical performance assessment</a>
+                        by Dr. Boulbaba Ben Amor of Mines-Telecom Institute (IMT) Lille Douai, France
+                        <span class="location">HEC 119</span>
+                    </td>
+                </tr>
+		<tr class="vevent alt">
+                    <td class="date">May 18 3:00PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Koppal.php">Towards Privacy Preserving Cameras</a>
+                        by Dr. Sanjeev Jagannatha Koppal of University of Florida
+                        by Dr. Jean Ponce of Ecole Normale Superieure, Paris, France
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+			<tr class="vevent">
+                    <td class="date">Feb 16 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Ponce.php">General Geometric Models of Image Formation</a>
+                        by Dr. Jean Ponce of Ecole Normale Superieure, Paris, France
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+                
+			<tr class="vevent alt">
+                    <td class="date">Dec 9 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Pelillo.php">From Cliques to Equilibria: Dominant-Set Clustering and Its Applications</a>
+                        by Dr. Marcello Pelillo of Ca'Foscari University of Venice
+                        <span class="location">HEC 113</span>
+                    </td>
+                </tr>
+
+			<tr class="vevent">
+                    <td class="date">Nov 29 11:00AM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Srivastava.php">On Advances in the Role of Differential Geometry in Computer Vision and Pattern Recognition</a>
+                        by Dr. Anuj Srivastava of Florida State University
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+            
+	            <tr class="vevent alt">
+                    <td class="date">Nov 16 1:30PM</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Serre.php">Feedforward and feedback processes in visual recognition</a>
+                        by Dr. Thomas Serre of Brown University
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+         
+	            <tr class="vevent">
+                    <td class="date">Oct 20 4:30pm</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Gan.php">Scale Up Video understanding with Deep Neural Networks</a>
+                        by Mr. Chuang Gan of Tsinghua University
+                        <span class="location">MSB 405</span>
+                    </td>
+                </tr>
+
+				<tr class="vevent alt">
+               	 <td class="date">Sep 29 11:00am</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Laptev.php">Weekly supervised learning from images and video</a>
+                        by Dr. Ivan Laptev of INRIA, Paris
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+	            <tr class="vevent">
+                    <td class="date">Aug 12 3:00pm</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Gokmen.php">Local Zernike Moments: A New Representation for Face Recognition</a>
+                        by Dr. Muhittin Gokmen of MEF University, Istanbul
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+           <!--tr class="vevent alt">
+                    <td class="date">March 31 2:00pm</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Sha.php">Do shallow kernel methods match deep neural networks - and if not, what can the shallow ones learn from the deep ones?</a>
+                        by Dr. Fei Shah of the University of California, Los Angeles
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+
+           <tr class="vevent">
+                    <td class="date">Nov 10 3:00pm</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Celik.php">Magnetic Resonance Guided High Intensity Focused Ultrasound and Clinical Applications</a>
+                        by Dr. Haydar Celik of the National Institutes of Health
+                        <span class="location">BA1 207</span>
+                    </td>
+                </tr>
+            <tr class="vevent alt">
+                    <td class="date">Nov 9 2:00pm</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Wolfe.php">Dancing chickens and gorillas in the lung: If I can see so much, why do I miss so much?</a>
+                        by Dr. Jeremy Wolfe of Harvard Medical School  
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+            <tr class="vevent">
+                    <td class="date">Oct 9 10:00am</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Borji.php">Computational Modeling of Bottom-up and Top-down Attention and Relations to Visual Recognition</a>
+                        by Dr. Ali Borji of the University of Wisconsin  
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+            <tr class="vevent alt">
+                    <td class="date">Aug 14 11:00am</td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Shekhar.php">From GPS and Google Maps to Spatial Computing 2020</a>
+                        by Dr. Shashi Shekhar of the University of Minnesota  
+                        <span class="location">HEC 101</span>
+                    </td>
+                </tr>
+            <tr class="vevent">
+                    <td class="date"><center>July 8<br>11:00am</center></td>
+                    <td class="description">
+                        <a class="url summary" href="/news&info/seminars/Gong2.php">Sequential Determinantal Point Process: Modeling the Diverse and Sequential Properties in Video Summarization</a>
+                        by Dr. Boqing Gong of the University of Southern California
+                    </td>
+                </tr-->
+
+            </tbody>
+            </table>
+			
+			<br>
+			<a href="news&info/seminars.php">More Past Seminars...</a>
+
+        </div>
+    </div>
+
+</div>
+<!--<div class="clear"></div>
+
+<div STYLE="font-size: 10px;" id="footer">
+	<hr width="100%">	
+	<br />
+	<a href="https://www.facebook.com/UCF.CRCV" target="_blank"><img src="/images/Facebook_logo.png" width="25px"></a>
+	<a href="https://twitter.com/UCFCRCV" target="_blank"><img src="/images/Twitter_logo.png" width="25px"></a>
+	<a href="http://www.youtube.com/user/UCFCRCV" target="_blank"><img src="/images/YouTube_logo.png" width="25px"></a>
+    <br /><br />&copy; Copyright 2011 CRCV
+    <br /><a href="http://www.ucf.edu">University of Central Florida</a>
+    <br />Orlando, Florida 32816-2365
+    <br />Phone: (407) 823-1119 | Fax: (407) 823-0594 
+    <br /><br /><img src="/images/ftr_logo_ucf.png" alt="UCF Stands for Opportunity" width="15%"/>
+</div>
+
+<div id="content_end">&nbsp;</div>
+-->
+	</body>
+</html>

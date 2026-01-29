@@ -1,0 +1,14 @@
+.env
+*.tfvars
+!*.tfvars.example
+.terraform/
+*.tfstate
+*.tfstate.backup
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.next/
+dist/
+*.egg-info/
+.uv/

@@ -1,0 +1,27 @@
+## Optional VSS overlay: docker compose -f docker-compose.yml -f docker-compose.vss.yml up
+services:
+  vss-server:
+    image: nvcr.io/nvidia/metropolis/vss:1.0
+    ports:
+      - "8080:8080"
+    environment:
+      TWELVE_LABS_API_KEY: ${TWELVE_LABS_API_KEY}
+      VLM_MODEL_TO_USE: twelve-labs
+      DISABLE_CV_PIPELINE: "true"
+      DISABLE_CA_RAG: "true"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    networks:
+      - anomaly-net
+
+  backend:
+    environment:
+      VSS_ENABLED: "true"
+      NVIDIA_VSS_BASE_URL: http://vss-server:8080
+    depends_on:
+      - vss-server

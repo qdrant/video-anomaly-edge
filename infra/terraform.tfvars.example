@@ -1,0 +1,7 @@
+# Copy this to terraform.tfvars and fill in values
+region               = "us-east-1"
+project_name         = "video-anomaly"
+key_pair_name        = "<your-key-pair-name>"
+gpu_instance_type    = "g5.xlarge"
+qdrant_instance_type = "t3.medium"
+allowed_ssh_cidr     = "<your-ip>/32"
