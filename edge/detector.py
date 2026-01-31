@@ -44,6 +44,10 @@ from edge.config import (
     K_NEIGHBORS,
     OFFLINE_QUEUE_DIR,
     QDRANT_EDGE_PATH,
+    RETENTION_CHECK_INTERVAL_S,
+    RETENTION_MAX_POINTS,
+    RETENTION_SECONDS,
+    RETENTION_STRATEGY,
 )
 
 logger = logging.getLogger(__name__)
@@ -93,6 +97,11 @@ class EdgeDetector:
         self._sync_running = False
         self._sync_thread: Optional[threading.Thread] = None
         self._start_sync_worker()
+
+        # Start background retention worker
+        self._retention_running = False
+        self._retention_thread: Optional[threading.Thread] = None
+        self._start_retention_worker()
 
     # ------------------------------------------------------------------
     # Sync worker (edge → cloud upload queue)
@@ -184,12 +193,19 @@ class EdgeDetector:
     # Store clip embedding (mutable shard + upload queue)
     # ------------------------------------------------------------------
 
-    def store_clip(self, embedding: np.ndarray, metadata: dict | None = None) -> str:
+    def store_clip(
+        self,
+        embedding: np.ndarray,
+        metadata: dict | None = None,
+        anomaly_score: float = 0.0,
+    ) -> str:
         """Store a clip embedding in the mutable shard and queue for cloud sync."""
         clip_id = uuid.uuid4().hex
         vector = embedding.tolist()
         payload = metadata or {}
         payload[SYNC_TIMESTAMP_KEY] = time.time()
+        payload["anomaly_score"] = anomaly_score
+        payload["synced"] = False
 
         self._mutable_shard.update(
             UpdateOperation.upsert_points(
@@ -198,6 +214,100 @@ class EdgeDetector:
         )
         self._upload_queue.put({"id": clip_id, "vector": vector, "payload": payload})
         return clip_id
+
+    # ------------------------------------------------------------------
+    # Mutable shard retention
+    # ------------------------------------------------------------------
+
+    def _start_retention_worker(self) -> None:
+        """Start background thread for mutable shard eviction."""
+        if RETENTION_STRATEGY == "none":
+            return
+        self._retention_running = True
+        self._retention_thread = threading.Thread(
+            target=self._retention_worker, daemon=True
+        )
+        self._retention_thread.start()
+
+    def _retention_worker(self) -> None:
+        while self._retention_running:
+            try:
+                self._apply_retention()
+            except Exception as exc:
+                logger.warning("Retention cycle failed: %s", exc)
+            time.sleep(RETENTION_CHECK_INTERVAL_S)
+
+    def _apply_retention(self) -> None:
+        """Apply the configured retention strategy to the mutable shard."""
+        if RETENTION_STRATEGY == "time_window":
+            self._evict_by_time()
+        elif RETENTION_STRATEGY == "score_priority":
+            self._evict_by_score_priority()
+
+    def _evict_by_time(self) -> None:
+        """Option B: Evict points older than RETENTION_SECONDS.
+
+        Points are removed from search but remain in the upload queue
+        for cloud sync. If a clip hasn't been synced yet, its embedding
+        and metadata are preserved in the SQLite-backed queue.
+        """
+        cutoff = time.time() - RETENTION_SECONDS
+        self._mutable_shard.update(
+            UpdateOperation.delete_points_by_filter(
+                Filter(
+                    must=[
+                        FieldCondition(
+                            key=SYNC_TIMESTAMP_KEY,
+                            range=RangeFloat(lte=cutoff),
+                        )
+                    ]
+                )
+            )
+        )
+        logger.info(
+            "time_window retention: evicted points older than %ds", RETENTION_SECONDS
+        )
+
+    def _evict_by_score_priority(self) -> None:
+        """Option C: Keep top RETENTION_MAX_POINTS by anomaly score.
+
+        Unsynced points above the escalation threshold are pinned (never
+        evicted until synced). Remaining slots are filled by recency.
+        """
+        all_points = list(self._mutable_shard.scroll(with_payload=True, with_vectors=False))
+        if len(all_points) <= RETENTION_MAX_POINTS:
+            return
+
+        # Partition: pinned (unsynced anomalies) vs. evictable
+        pinned = []
+        evictable = []
+        for pt in all_points:
+            score = pt.payload.get("anomaly_score", 0.0)
+            synced = pt.payload.get("synced", False)
+            if not synced and score > ESCALATION_THRESHOLD:
+                pinned.append(pt)
+            else:
+                evictable.append(pt)
+
+        # Sort evictable by timestamp ascending (oldest first)
+        evictable.sort(key=lambda p: p.payload.get(SYNC_TIMESTAMP_KEY, 0))
+
+        # How many evictable points to keep
+        keep_count = max(0, RETENTION_MAX_POINTS - len(pinned))
+        to_evict = evictable[:max(0, len(evictable) - keep_count)]
+
+        if not to_evict:
+            return
+
+        ids_to_delete = [pt.id for pt in to_evict]
+        self._mutable_shard.update(
+            UpdateOperation.delete_points(ids_to_delete)
+        )
+        logger.info(
+            "score_priority retention: evicted %d points, pinned %d anomalies",
+            len(ids_to_delete),
+            len(pinned),
+        )
 
     # ------------------------------------------------------------------
     # Escalation
@@ -382,3 +492,6 @@ class EdgeDetector:
 
     def close(self) -> None:
         self.stop_sync()
+        self._retention_running = False
+        if self._retention_thread:
+            self._retention_thread.join(timeout=10)

@@ -47,6 +47,18 @@ CLOUD_API_KEY: str = os.getenv("CLOUD_API_KEY", "")
 # Sync
 # ---------------------------------------------------------------------------
 SYNC_INTERVAL_S: int = int(os.getenv("SYNC_INTERVAL_S", "300"))  # 5 min
+
+# ---------------------------------------------------------------------------
+# Mutable shard retention
+# ---------------------------------------------------------------------------
+# Strategy: "none" | "time_window" | "score_priority"
+#   none           — only evict after successful sync (Option A)
+#   time_window    — evict points older than RETENTION_SECONDS (Option B)
+#   score_priority — keep top RETENTION_MAX_POINTS by score, pin unsynced anomalies (Option C)
+RETENTION_STRATEGY: str = os.getenv("RETENTION_STRATEGY", "none")
+RETENTION_SECONDS: int = int(os.getenv("RETENTION_SECONDS", "1800"))  # 30 min
+RETENTION_MAX_POINTS: int = int(os.getenv("RETENTION_MAX_POINTS", "2000"))
+RETENTION_CHECK_INTERVAL_S: int = int(os.getenv("RETENTION_CHECK_INTERVAL_S", "300"))  # 5 min
 OFFLINE_QUEUE_DIR: str = os.getenv(
     "OFFLINE_QUEUE_DIR",
     str(Path(__file__).resolve().parent / "offline_queue"),
