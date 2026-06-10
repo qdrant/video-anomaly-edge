@@ -24,7 +24,7 @@ dependencies = [
     "qdrant-edge-py>=0.5.0",
     "persist-queue>=1.1.0",
     "twelvelabs>=0.4.0",
-    "aiohttp>=3.9.0",
+    "aiohttp>=3.14.0",
 ]
 
 [tool.hatch.build.targets.wheel]
