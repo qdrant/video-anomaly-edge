@@ -19,7 +19,7 @@ dependencies = [
     "decord>=0.6.0; sys_platform != 'darwin'",
     "av>=13.0.0",
     "boto3>=1.35.0",
-    "python-multipart>=0.0.12",
+    "python-multipart>=0.0.31",
     "httpx>=0.27.0",
     "qdrant-edge-py>=0.5.0",
     "persist-queue>=1.1.0",
