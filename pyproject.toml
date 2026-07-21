@@ -15,7 +15,7 @@ dependencies = [
     "scipy>=1.14.0",
     "scikit-learn>=1.5.0",
     "numpy>=1.26.0",
-    "pillow>=10.0.0",
+    "pillow>=12.3.0",
     "decord>=0.6.0; sys_platform != 'darwin'",
     "av>=13.0.0",
     "boto3>=1.35.0",
