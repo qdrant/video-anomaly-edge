@@ -14,7 +14,7 @@ interface DatasetContextType {
 const DatasetContext = createContext<DatasetContextType | undefined>(undefined);
 
 export function DatasetProvider({ children }: { children: ReactNode }) {
-  const [currentDataset, setCurrentDataset] = useState<DatasetId>('ucf_crime');
+  const [currentDataset, setCurrentDataset] = useState<DatasetId>('shanghaitech');
   const [datasets, setDatasets] = useState<DatasetInfo[]>([]);
   const [loading, setLoading] = useState(true);
 

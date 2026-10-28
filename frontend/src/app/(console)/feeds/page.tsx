@@ -459,7 +459,7 @@ function FeedsPageContent() {
                     onWindowChange={setCurrentWindow}
                     autoPlay={true}
                     showOverlay={true}
-                    playbackRate={PLAYBACK_RATES[selectedFeed?.dataset || 'avenue'] || 1.0}
+                    playbackRate={PLAYBACK_RATES[selectedFeed?.dataset || 'shanghaitech'] || 1.0}
                   />
                 </div>
 
@@ -542,7 +542,7 @@ function FeedsPageContent() {
                 similarIncidents={currentIncidentDetail?.neighbors_anomaly || []}
                 nearestNormal={currentIncident?.neighbors_normal || []}
                 selectedRange={selectedRange}
-                dataset={selectedFeed?.dataset || 'avenue'}
+                dataset={selectedFeed?.dataset || 'shanghaitech'}
                 feedId={selectedFeed?.feed_id}
                 onSeek={handleSeek}
                 onSeekRelative={handleSeekRelative}

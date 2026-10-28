@@ -61,7 +61,7 @@ const DATASETS = [
     id: 'ucf_crime',
     name: 'UCF-Crime (Full)',
     description: 'UCF-Crime Full Dataset - Extended anomaly types',
-    available: true,
+    available: false, // clips + collection for this dataset are not deployed
     video_count: 1900,
     anomaly_count: 950,
   },

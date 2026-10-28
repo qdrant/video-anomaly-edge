@@ -53,7 +53,7 @@ export default function OpsCopilot({
   similarIncidents,
   nearestNormal,
   selectedRange,
-  dataset = 'avenue',
+  dataset = 'shanghaitech',
   feedId,
   onSeek,
   onSeekRelative,
