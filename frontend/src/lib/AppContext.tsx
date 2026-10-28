@@ -35,7 +35,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [dataset, setDatasetState] = useState<DatasetId>('ucf_crime' as DatasetId);
+  const [dataset, setDatasetState] = useState<DatasetId>('shanghaitech' as DatasetId);
   const [runId, setRunIdState] = useState('baseline');
   const [feedId, setFeedIdState] = useState<string | null>(null);
   const [timeMs, setTimeMsState] = useState(0);

@@ -28,13 +28,13 @@ export async function getDatasets(): Promise<DatasetInfo[]> {
   return res.json();
 }
 
-export async function getTestVideos(dataset: DatasetId = 'avenue'): Promise<VideoSummary[]> {
+export async function getTestVideos(dataset: DatasetId = 'shanghaitech'): Promise<VideoSummary[]> {
   const res = await fetch(`${API_BASE}/${dataset}/test-videos`);
   if (!res.ok) throw new Error('Failed to load videos');
   return res.json();
 }
 
-export async function getVideoResults(videoId: string, dataset: DatasetId = 'avenue'): Promise<VideoAnalysis> {
+export async function getVideoResults(videoId: string, dataset: DatasetId = 'shanghaitech'): Promise<VideoAnalysis> {
   const res = await fetch(`${API_BASE}/${dataset}/results/${videoId}`);
   if (!res.ok) throw new Error('Failed to load results');
   return res.json();
@@ -62,7 +62,7 @@ export async function searchClips(
     dataset?: DatasetId;
   }
 ): Promise<SearchResult[]> {
-  const dataset = options?.dataset ?? 'avenue';
+  const dataset = options?.dataset ?? 'shanghaitech';
   const res = await fetch(`${API_BASE}/${dataset}/embeddings/search`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -103,7 +103,7 @@ export async function findSimilarClips(
   sceneId: string,
   clipIndex: number,
   limit?: number,
-  dataset: DatasetId = 'avenue'
+  dataset: DatasetId = 'shanghaitech'
 ): Promise<SearchResult[]> {
   const params = new URLSearchParams();
   if (limit) params.set('limit', limit.toString());
@@ -114,15 +114,15 @@ export async function findSimilarClips(
   return res.json();
 }
 
-export function getThumbnailUrl(videoType: string, clipId: string, dataset: DatasetId = 'avenue'): string {
+export function getThumbnailUrl(videoType: string, clipId: string, dataset: DatasetId = 'shanghaitech'): string {
   return `${API_BASE}/${dataset}/thumbnails/${videoType}/${clipId}.jpg`;
 }
 
-export function getClipUrl(videoType: string, clipId: string, dataset: DatasetId = 'avenue'): string {
+export function getClipUrl(videoType: string, clipId: string, dataset: DatasetId = 'shanghaitech'): string {
   return `${API_BASE}/${dataset}/clips/${videoType}/${clipId}.mp4`;
 }
 
-export function getVideoUrl(videoType: string, videoId: string, dataset: DatasetId = 'avenue'): string {
+export function getVideoUrl(videoType: string, videoId: string, dataset: DatasetId = 'shanghaitech'): string {
   return `${API_BASE}/${dataset}/videos/${videoType}/${videoId}`;
 }
 
@@ -130,20 +130,20 @@ export function getVideoUrl(videoType: string, videoId: string, dataset: Dataset
 // Feed-based API (v2)
 // ============================================================================
 
-export async function getFeeds(dataset: DatasetId = 'avenue'): Promise<FeedsIndex> {
+export async function getFeeds(dataset: DatasetId = 'shanghaitech'): Promise<FeedsIndex> {
   const res = await fetch(`${API_BASE}/${dataset}/feeds`);
   if (!res.ok) throw new Error('Failed to load feeds');
   return res.json();
 }
 
-export async function getFeed(feedId: string, dataset: DatasetId = 'avenue'): Promise<FeedManifest> {
+export async function getFeed(feedId: string, dataset: DatasetId = 'shanghaitech'): Promise<FeedManifest> {
   const res = await fetch(`${API_BASE}/${dataset}/feeds/${feedId}`);
   if (!res.ok) throw new Error('Failed to load feed');
   return res.json();
 }
 
 export async function getIncidents(
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     runId?: string;
     feedId?: string;
@@ -171,7 +171,7 @@ export async function getIncidents(
 
 export async function getIncident(
   incidentId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   runId: string = 'baseline'
 ): Promise<IncidentDetail> {
   const params = new URLSearchParams({ run_id: runId });
@@ -183,7 +183,7 @@ export async function getIncident(
 export async function updateIncidentStatus(
   incidentId: string,
   status: 'new' | 'confirmed' | 'false_alarm' | 'investigating',
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   runId: string = 'baseline'
 ): Promise<void> {
   const params = new URLSearchParams({ status, run_id: runId });
@@ -193,19 +193,19 @@ export async function updateIncidentStatus(
   if (!res.ok) throw new Error('Failed to update incident status');
 }
 
-export async function getRuns(dataset: DatasetId = 'avenue'): Promise<RunsResponse> {
+export async function getRuns(dataset: DatasetId = 'shanghaitech'): Promise<RunsResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/runs`);
   if (!res.ok) throw new Error('Failed to load runs');
   return res.json();
 }
 
-export async function getRun(runId: string, dataset: DatasetId = 'avenue'): Promise<Run> {
+export async function getRun(runId: string, dataset: DatasetId = 'shanghaitech'): Promise<Run> {
   const res = await fetch(`${API_BASE}/${dataset}/runs/${runId}`);
   if (!res.ok) throw new Error('Failed to load run');
   return res.json();
 }
 
-export async function getPRCurve(dataset: DatasetId = 'avenue'): Promise<PRCurveResponse> {
+export async function getPRCurve(dataset: DatasetId = 'shanghaitech'): Promise<PRCurveResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/pr-curve`);
   if (!res.ok) throw new Error('Failed to load PR curve');
   return res.json();
@@ -213,7 +213,7 @@ export async function getPRCurve(dataset: DatasetId = 'avenue'): Promise<PRCurve
 
 export async function evaluateThreshold(
   threshold: number,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   cooldownMs: number = 0
 ): Promise<{
   threshold: number;
@@ -265,7 +265,7 @@ export interface UMAPResponse {
   points: UMAPPoint[];
 }
 
-export async function getUMAPProjections(dataset: DatasetId = 'avenue'): Promise<UMAPResponse> {
+export async function getUMAPProjections(dataset: DatasetId = 'shanghaitech'): Promise<UMAPResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/embeddings/umap`);
   if (!res.ok) throw new Error('Failed to load UMAP projections');
   return res.json();
@@ -292,7 +292,7 @@ export interface SemanticSearchResponse {
 
 export async function semanticSearch(
   query: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     limit?: number;
     includeTraining?: boolean;
@@ -313,7 +313,7 @@ export async function semanticSearch(
 
 export async function findSemanticallySimilarClips(
   clipId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     limit?: number;
     includeTraining?: boolean;
@@ -341,7 +341,7 @@ export interface ExplainResponse {
 
 export async function explainClip(
   clipId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   prompt?: string
 ): Promise<ExplainResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/explain`, {
@@ -370,7 +370,7 @@ export interface ClipNeighborsResponse {
 
 export async function getClipNeighbors(
   clipId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   k: number = 5
 ): Promise<ClipNeighborsResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/clips/${clipId}/neighbors?k=${k}`);
@@ -392,7 +392,7 @@ export interface DatasetContext {
   supported_datasets: string[];
 }
 
-export async function getDatasetContext(dataset: DatasetId = 'avenue'): Promise<DatasetContext> {
+export async function getDatasetContext(dataset: DatasetId = 'shanghaitech'): Promise<DatasetContext> {
   const res = await fetch(`${API_BASE}/${dataset}/context`);
   if (!res.ok) throw new Error('Failed to load dataset context');
   return res.json();
@@ -410,7 +410,7 @@ export interface ClipQAResponse {
 export async function askClipQuestion(
   clipId: string,
   question: string,
-  dataset: DatasetId = 'avenue'
+  dataset: DatasetId = 'shanghaitech'
 ): Promise<ClipQAResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/qa/clip`, {
     method: 'POST',
@@ -439,7 +439,7 @@ export interface VideoQAResponse {
 export async function askVideoQuestion(
   videoId: string,
   question: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     searchDescriptions?: boolean;
     maxClips?: number;
@@ -471,7 +471,7 @@ export interface DescriptionResponse {
 
 export async function generateDescription(
   clipId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     isAnomaly?: boolean;
     anomalyScore?: number;
@@ -514,7 +514,7 @@ export interface VideoReportResponse {
 
 export async function generateVideoReport(
   videoId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   includeDescriptions: boolean = true
 ): Promise<VideoReportResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/report`, {
@@ -547,7 +547,7 @@ export interface TextSearchResponse {
 
 export async function searchDescriptions(
   query: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   limit: number = 20
 ): Promise<TextSearchResponse> {
   const res = await fetch(`${API_BASE}/${dataset}/search/text`, {
@@ -589,7 +589,7 @@ export interface FusionSearchResponse {
 
 export async function fusionSearch(
   query: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     limit?: number;
     sceneId?: string;
@@ -632,7 +632,7 @@ export interface DualAnomalyResponse {
 
 export async function getDualAnomalyScore(
   clipId: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   options?: {
     visualWeight?: number;
     semanticWeight?: number;
@@ -657,7 +657,7 @@ export async function getDualAnomalyScore(
 
 export async function findSimilarByDescription(
   description: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   limit: number = 10
 ): Promise<{
   query_description: string;
@@ -681,7 +681,7 @@ export async function findSimilarByDescription(
 
 export async function getClipVectors(
   clipId: string,
-  dataset: DatasetId = 'avenue'
+  dataset: DatasetId = 'shanghaitech'
 ): Promise<{
   clip_id: string;
   has_v_clip: boolean;
@@ -781,7 +781,7 @@ export interface ChatVideoQAResponse {
 
 export async function chatWithVideo(
   question: string,
-  dataset: DatasetId = 'avenue',
+  dataset: DatasetId = 'shanghaitech',
   feedId?: string,
   timeMs?: number
 ): Promise<ChatVideoQAResponse> {

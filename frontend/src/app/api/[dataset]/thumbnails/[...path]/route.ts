@@ -11,6 +11,12 @@ export async function GET(
 ) {
   const { dataset, path: pathParts } = await params;
   const subPath = pathParts.join('/');
+
+  // Hosted mode: media lives in Vercel Blob (or any static host); redirect there.
+  const base = process.env.CLIP_BASE_URL;
+  if (base) {
+    return NextResponse.redirect(`${base.replace(/\/$/, '')}/${dataset}/thumbnails/${subPath}`, 307);
+  }
   const filename = pathParts[pathParts.length - 1];
   const dir = pathParts.slice(0, -1).join('/');
 

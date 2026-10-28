@@ -9,7 +9,7 @@ function formatTime(s: number): string {
 }
 
 // Cache t-SNE result to avoid recomputing on every request
-let cachedResult: { points: unknown[]; timestamp: number } | null = null; // v2: unknown->normal
+const cache = new Map<string, { points: unknown[]; timestamp: number }>(); // keyed by dataset
 const CACHE_TTL = 5 * 60 * 1000; // 5 min
 
 export async function GET(
@@ -19,6 +19,7 @@ export async function GET(
   const { dataset } = await params;
 
   // Return cached if fresh
+  const cachedResult = cache.get(dataset);
   if (cachedResult && Date.now() - cachedResult.timestamp < CACHE_TTL) {
     return NextResponse.json({ points: cachedResult.points });
   }
@@ -109,7 +110,7 @@ export async function GET(
       };
     });
 
-    cachedResult = { points, timestamp: Date.now() };
+    cache.set(dataset, { points, timestamp: Date.now() });
     return NextResponse.json({ points });
   } catch (error) {
     console.error('UMAP endpoint error:', error);

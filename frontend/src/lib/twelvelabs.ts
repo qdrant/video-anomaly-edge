@@ -90,3 +90,24 @@ export async function uploadToVSS(
   if (!res.ok) throw new Error('VSS upload failed');
   return res.json();
 }
+
+// Server-side: embed a text query with Marengo for vector search against clip embeddings.
+// Same model must be used for the clip embeddings in the collection.
+const TL_API = process.env.TWELVE_LABS_API_URL || 'https://api.twelvelabs.io/v1.3';
+const TL_EMBED_MODEL = process.env.TWELVE_LABS_EMBED_MODEL || 'Marengo-retrieval-2.7';
+
+export async function embedText(text: string): Promise<number[]> {
+  const apiKey = process.env.TWELVE_LABS_API_KEY;
+  if (!apiKey) throw new Error('TWELVE_LABS_API_KEY not set');
+  const form = new FormData();
+  form.append('model_name', TL_EMBED_MODEL);
+  form.append('text', text);
+  form.append('text_truncate', 'end');
+  const res = await fetch(`${TL_API}/embed`, { method: 'POST', headers: { 'x-api-key': apiKey }, body: form });
+  if (!res.ok) throw new Error(`Twelve Labs embed failed: ${res.status} ${await res.text()}`);
+  const data = await res.json();
+  const seg = data?.text_embedding?.segments?.[0];
+  const vec = seg?.float ?? seg?.embeddings_float; // marengo3.x returns "float", 2.7 "embeddings_float"
+  if (!vec) throw new Error('Twelve Labs embed returned no vector');
+  return vec as number[];
+}

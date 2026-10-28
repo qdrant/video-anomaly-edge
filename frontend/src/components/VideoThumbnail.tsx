@@ -28,7 +28,7 @@ export default function VideoThumbnail({
   className = '',
   showPlayIcon = true,
   badge,
-  dataset = 'avenue',
+  dataset = 'shanghaitech',
 }: VideoThumbnailProps) {
   const [isHovering, setIsHovering] = useState(false);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
